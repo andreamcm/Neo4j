@@ -4,3 +4,5 @@ class Personas(GraphObject):
     nombre = Property()
 
     conoce_a = RelatedTo (Personas)
+
+    
