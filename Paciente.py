@@ -8,3 +8,5 @@ class Paciente(GraphObject):
 
     doctor = RelatedFrom ("Doctores", "REVISA_A")
     persona = RelateFrom ("Personas", "CONOCE_A")
+
+    
